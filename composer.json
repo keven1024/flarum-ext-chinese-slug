@@ -1,0 +1,47 @@
+{
+    "name": "keven1024/flarum-ext-chinese-slug",
+    "description": "A Flarum extension. Use chinese as slug in discussion URL. Base on PipecraftNet/flarum-ext-id-slug",
+    "keywords": [
+        "flarum",
+        "slug",
+        "slug-driver"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keven1024",
+            "email": "Keven@fudaoyuan.icu"
+        },
+        {
+            "name": "Pipecraft",
+            "email": "pipecraft.net@gmail.com"
+        }
+    ],
+    "support": {
+        "source": "https://gitea.fudaoyuan.icu/fudaoyuan.icu/flarum-ext-chinese-slug"
+    },
+    "homepage": "https://fudaoyuan.icu",
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Keven1024\\ChineseSlug\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Chinese Slug",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-language",
+                "backgroundColor": "#22d3ee",
+                "color": "#fff"
+            }
+        },
+        "flagrow": {
+            "discuss": "https://discuss.flarum.org/"
+        }
+    }
+}
